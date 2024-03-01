@@ -1,0 +1,96 @@
+.scroll-view {
+	white-space: nowrap;
+}
+
+/deep/::-webkit-scrollbar {
+	display: none;
+	width: 0;
+	height: 0;
+}
+
+.item {
+	margin-left: 5px;
+	display: inline-block;
+	padding: 3px 3px;
+	margin-top: 10px;
+}
+
+.ImgwithText {
+	display: block;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.Text {
+	color: white;
+}
+
+.ImgwithText image {
+	padding: 2px;
+	width: 30px;
+	height: 30px;
+}
+
+.img {
+
+	width: 45px;
+	height: 45px;
+}
+
+.img-seall {
+	border: 1px solid #ffffff;
+	width: 170px;
+	border-radius: 5px;
+	height: 60px;
+	background-color: aliceblue;
+}
+
+.isactive {
+	border: 1px solid #aa00ff;
+	border-radius: 5px;
+}
+
+.tuijian {
+	float: left;
+
+	width: 40px;
+	height: 40px;
+}
+
+.news {
+	float: right;
+	width: 40px;
+	height: 40px;
+}
+
+.isactive-tuijian-news {
+
+	background-repeat: no-repeat;
+	background-image: linear-gradient(90deg, #000 0%, #000 100%);
+	background-size: 50% 3px;
+	background-position: 50% 100%;
+	background-position: bottom;
+	display: inline-block;
+	font-weight: bold;
+
+}
+
+.newsortuijianitem {
+
+	
+}
+
+.newsortuijian {
+	height: 270px;
+	float: left;
+	padding-left: 10px;
+	
+
+}
+
+.newsortuijianimg image {
+	height:270px;
+
+}
