@@ -11,8 +11,8 @@ public class WeChatAuthService {
     public Mono<String> getSessionInfo(String jsCode) {
         // 构造URL参数
         String apiUrl = "https://api.weixin.qq.com/sns/jscode2session";
-        String appId = "wx224030ac1ab6d5e8";
-        String secret = "41a0533380c343b6f487e9adbcf59e06";
+        String appId = "";
+        String secret = "";
         String grantType = "authorization_code";
 
         return webClient.get()
